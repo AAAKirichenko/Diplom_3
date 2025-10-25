@@ -1,7 +1,8 @@
 
-LOGIN_URL = 'https://stellarburgers.education-services.ru/login'
 URL = 'https://stellarburgers.education-services.ru/'
-FEED_URL = 'https://stellarburgers.education-services.ru/feed'
+LOGIN_URL = f'{URL}login'
+FEED_URL = f'{URL}feed'
+
 EMAIL = "AlexDuma@gmail.com"
 PASSWORD = "ADuma888"
 
